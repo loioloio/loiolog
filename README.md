@@ -2,6 +2,8 @@
 
 Kodi addon for viewing, filtering, searching, analyzing and exporting Kodi logs.
 
+![Features](screenshots/features.png)
+
 ## Installation
 
 ### Option 1: From Kodi File Manager (Recommended)
