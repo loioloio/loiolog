@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addons>
+<addon id="plugin.program.loiolog" name="LoioLog" version="1.0.0" provider-name="loioloio">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Gestor avanzado de logs de Kodi</summary>
+    <summary lang="en">Advanced Kodi log manager</summary>
+    <description lang="es">Visualiza y busca en el log de Kodi con un visor de colores por severidad. Filtra por addon, texto o expresiones regulares. Exporta a TXT o JSON, comparte el log subiendo a internet o abrelo en el movil desde tu red local. Consulta estadisticas del log, compara errores entre sesiones y gestiona los logs anteriores.</description>
+    <description lang="en">View and search the Kodi log with a color-coded severity viewer. Filter by addon, text or regular expressions. Export to TXT or JSON, share the log by uploading online or open it on your phone via local network. Check log statistics, compare errors between sessions and manage old logs.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.loiolog" name="LoioLog Repository" version="1.0.0" provider-name="loioloio">
+    <extension point="xbmc.addon.repository" name="LoioLog Repository">
+        <dir>
+            <info compressed="false">https://loioloio.github.io/loiolog/addons.xml</info>
+            <checksum>https://loioloio.github.io/loiolog/addons.xml.md5</checksum>
+            <datadir zip="true">https://loioloio.github.io/loiolog/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Repositorio de LoioLog</summary>
+        <summary lang="en">LoioLog Repository</summary>
+        <description lang="es">Repositorio oficial para instalar y actualizar el addon LoioLog.</description>
+        <description lang="en">Official repository for installing and updating the LoioLog addon.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+</addons>
