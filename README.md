@@ -1,4 +1,4 @@
-# LoioLog — Advanced Kodi Log Manager
+# loiolog — Advanced Kodi Log Manager
 
 Kodi addon for viewing, filtering, searching, analyzing and exporting Kodi logs.
 
