@@ -1,6 +1,6 @@
 # loiolog — Advanced Kodi Log Manager
 
-Kodi addon for viewing, filtering, searching, analyzing and exporting Kodi logs.
+A complete set of tools to view, filter, search, analyze and export Kodi system logs.
 
 ## Installation
 
